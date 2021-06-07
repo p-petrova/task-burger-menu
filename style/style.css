@@ -93,12 +93,7 @@ table, th, td{
 	transform: rotate(45deg);
 }
 
-@media only screen and (max-width: 767px) {
-	.burger_menu {
-		display: block;
-		margin-left: auto;
-	}
-}
+
 
 /* nav */
 
@@ -126,7 +121,6 @@ table, th, td{
 	color: #440066;
 }
 
-
 @media only screen and (max-width: 767px) {
 	.nav {
 		position: fixed;
@@ -150,5 +144,10 @@ table, th, td{
 
 	body.has-active-nav .nav {
 		right: 0;
+	}
+
+	.burger_menu {
+		display: block;
+		margin-left: auto;
 	}
 }
